@@ -39,7 +39,7 @@ class Solution:
         current_node = head
 
         # We iterate until current_node becomes None
-        while(current_node is not None):
+        while current_node is not None:
 
             # Store the next node before reversing
             next_node = current_node.next
