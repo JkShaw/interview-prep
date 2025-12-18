@@ -40,3 +40,9 @@ class Solution:
                     LIS[i] = max(LIS[i], 1 + LIS[j])
 
         return max(LIS)
+
+if __name__ == '__main__':
+    sol = Solution()
+    data = [0,1,0,3,2,3]
+    result = sol.lengthOfLIS(data)
+    print(result)
