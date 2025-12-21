@@ -33,16 +33,17 @@ class Solution:
         result = [0] * len(temperatures)
         stack = [len(temperatures) - 1]
 
-        for idx in range(len(temperatures) - 2, -1, -1):
-            count = 0
-            current_value = temperatures[idx]
+        for i in range(len(temperatures) - 2, -1, -1):
+            current_temp = temperatures[i]
 
-            while stack and temperatures[stack[-1]] < current_value:
+            # remove all entries from stack with temp <= current
+            while stack and temperatures[stack[-1]] <= current_temp:
                 stack.pop()
 
+            # if stack is not empty it means the top entity is the answer
             if stack:
-                result[idx] = stack[-1] - idx
+                result[i] = stack[-1] - i
 
-            stack.append(idx)
+            stack.append(i)
 
         return result
