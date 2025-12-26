@@ -1,7 +1,7 @@
 """
 Invert Binary Tree
 
-Given the root of a binary tree, invert the tree, and return its root.
+Given the root of a binary trees, invert the trees, and return its root.
 
 Example 1:
 Input: root = [4,2,7,1,3,6,9]
@@ -16,11 +16,11 @@ Input: root = []
 Output: []
 
 Constraints:
-The number of nodes in the tree is in the range [0, 100].
+The number of nodes in the trees is in the range [0, 100].
 -100 <= Node.val <= 100
 """
 
-# Definition for a binary tree node.
+# Definition for a binary trees node.
 from typing import Optional
 
 

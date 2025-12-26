@@ -24,7 +24,7 @@ The number of nodes in both trees is in the range [0, 100].
 from typing import Optional
 
 
-# Definition for a binary tree node.
+# Definition for a binary trees node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val

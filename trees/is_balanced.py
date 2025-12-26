@@ -1,7 +1,7 @@
 """
 Balanced Binary Tree
 
-Given a binary tree, determine if it is height-balanced.
+Given a binary trees, determine if it is height-balanced.
 
 
 Example 1:
@@ -17,13 +17,13 @@ Input: root = []
 Output: true
 
 Constraints:
-The number of nodes in the tree is in the range [0, 5000].
+The number of nodes in the trees is in the range [0, 5000].
 -104 <= Node.val <= 104
 """
 
 from typing import Optional
 
-# Definition for a binary tree node.
+# Definition for a binary trees node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
