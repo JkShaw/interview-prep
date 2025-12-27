@@ -28,6 +28,7 @@ The number of nodes in the tree is in the range [0, 100].
 
 # Definition for a binary tree node.
 import collections
+from typing import Optional, List
 
 
 class TreeNode:
@@ -35,9 +36,6 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-
-
-from typing import Optional, List
 
 
 class Solution:
