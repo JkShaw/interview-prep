@@ -42,6 +42,7 @@ class Solution:
 
 if __name__ == '__main__':
     nums = [1, 2, 3]
+    nums = [1, 2, 2]
     sol = Solution()
     result = sol.subsets(nums)
     print(result)
